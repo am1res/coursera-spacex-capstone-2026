@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+beautifulsoup4
+requests
+folium
+dash
+plotly
+nbformat
+nbclient
+ipykernel

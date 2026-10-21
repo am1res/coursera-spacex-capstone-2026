@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_02f2e5286865f364fc87e78cdd212c7e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/ardhi/Leaflet.MousePosition/src/L.Control.MousePosition.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ardhi/Leaflet.MousePosition/src/L.Control.MousePosition.min.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_02f2e5286865f364fc87e78cdd212c7e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_02f2e5286865f364fc87e78cdd212c7e = L.map(
+                "map_02f2e5286865f364fc87e78cdd212c7e",
+                {
+                    center: [28.56319718, -80.57682003],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f72b3397c71c5b7f910c2c904e83adbb = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f72b3397c71c5b7f910c2c904e83adbb.addTo(map_02f2e5286865f364fc87e78cdd212c7e);
+        
+    
+            var marker_df55ab8306e21898208e5b79392dc262 = L.marker(
+                [28.56319718, -80.57682003],
+                {
+}
+            ).addTo(map_02f2e5286865f364fc87e78cdd212c7e);
+        
+    
+            var icon_783d32d673f5c6ab5f2fa1298feea19c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0afa019d6385104fedf216ea242619c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b175dda337f3d07105e56b87882a5c20 = $(`<div id="html_b175dda337f3d07105e56b87882a5c20" style="width: 100.0%; height: 100.0%;">CCAFS SLC-40</div>`)[0];
+                popup_0afa019d6385104fedf216ea242619c4.setContent(html_b175dda337f3d07105e56b87882a5c20);
+            
+        
+
+        marker_df55ab8306e21898208e5b79392dc262.bindPopup(popup_0afa019d6385104fedf216ea242619c4)
+        ;
+
+        
+    
+    
+                marker_df55ab8306e21898208e5b79392dc262.setIcon(icon_783d32d673f5c6ab5f2fa1298feea19c);
+            
+    
+            var marker_aabf760980e4fc3a0a20d3ba27eb9588 = L.marker(
+                [28.5633, -80.56824],
+                {
+}
+            ).addTo(map_02f2e5286865f364fc87e78cdd212c7e);
+        
+    
+            var icon_507eedb3a47b88bf2baa7ebfcdd62a53 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c4722e68904bfca82b71f5336461a281 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af65b842e84d756a8e9aec4a8f73cc34 = $(`<div id="html_af65b842e84d756a8e9aec4a8f73cc34" style="width: 100.0%; height: 100.0%;">Atlantic coastline (selected point): 0.84 km straight-line distance</div>`)[0];
+                popup_c4722e68904bfca82b71f5336461a281.setContent(html_af65b842e84d756a8e9aec4a8f73cc34);
+            
+        
+
+        marker_aabf760980e4fc3a0a20d3ba27eb9588.bindPopup(popup_c4722e68904bfca82b71f5336461a281)
+        ;
+
+        
+    
+    
+            marker_aabf760980e4fc3a0a20d3ba27eb9588.bindTooltip(
+                `<div>
+                     Atlantic coastline (selected point): 0.84 km straight-line distance
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_aabf760980e4fc3a0a20d3ba27eb9588.setIcon(icon_507eedb3a47b88bf2baa7ebfcdd62a53);
+            
+    
+            var marker_0cad1d7818738e43235997b7ab9950a2 = L.marker(
+                [28.5633, -80.57077],
+                {
+}
+            ).addTo(map_02f2e5286865f364fc87e78cdd212c7e);
+        
+    
+            var icon_a2023a77cbcbd4c688e1df8cb573f7dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ebb969823fe7fa9f2200ba2c1533f618 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_480589bada9e8d07297e81a872e0175a = $(`<div id="html_480589bada9e8d07297e81a872e0175a" style="width: 100.0%; height: 100.0%;">Samuel C. Phillips Parkway (selected road point): 0.59 km straight-line distance</div>`)[0];
+                popup_ebb969823fe7fa9f2200ba2c1533f618.setContent(html_480589bada9e8d07297e81a872e0175a);
+            
+        
+
+        marker_0cad1d7818738e43235997b7ab9950a2.bindPopup(popup_ebb969823fe7fa9f2200ba2c1533f618)
+        ;
+
+        
+    
+    
+            marker_0cad1d7818738e43235997b7ab9950a2.bindTooltip(
+                `<div>
+                     Samuel C. Phillips Parkway (selected road point): 0.59 km straight-line distance
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0cad1d7818738e43235997b7ab9950a2.setIcon(icon_a2023a77cbcbd4c688e1df8cb573f7dd);
+            
+    
+            var marker_2bd7315befcdaff7cb2f1292458e9c89 = L.marker(
+                [28.5633, -80.58699],
+                {
+}
+            ).addTo(map_02f2e5286865f364fc87e78cdd212c7e);
+        
+    
+            var icon_76e0b6923fc72a44708a5ce2fb14bf16 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4ab7f21c38baa824ac572182223a0952 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fff2817160073bf68fd89975ea5d3038 = $(`<div id="html_fff2817160073bf68fd89975ea5d3038" style="width: 100.0%; height: 100.0%;">Titan Railroad (selected rail point): 0.99 km straight-line distance</div>`)[0];
+                popup_4ab7f21c38baa824ac572182223a0952.setContent(html_fff2817160073bf68fd89975ea5d3038);
+            
+        
+
+        marker_2bd7315befcdaff7cb2f1292458e9c89.bindPopup(popup_4ab7f21c38baa824ac572182223a0952)
+        ;
+
+        
+    
+    
+            marker_2bd7315befcdaff7cb2f1292458e9c89.bindTooltip(
+                `<div>
+                     Titan Railroad (selected rail point): 0.99 km straight-line distance
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2bd7315befcdaff7cb2f1292458e9c89.setIcon(icon_76e0b6923fc72a44708a5ce2fb14bf16);
+            
+    
+            var marker_f25e57d913730e03a42eea46806cdd6e = L.marker(
+                [28.38778, -80.60669],
+                {
+}
+            ).addTo(map_02f2e5286865f364fc87e78cdd212c7e);
+        
+    
+            var icon_2c84bb042c953d2b2177272f88bc659c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_44ffc5d7d24b86b0da9bb815137944ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c15e2258c8f61475d31f3e8d667ddbc7 = $(`<div id="html_c15e2258c8f61475d31f3e8d667ddbc7" style="width: 100.0%; height: 100.0%;">Cape Canaveral city (approximate label location): 19.73 km straight-line distance</div>`)[0];
+                popup_44ffc5d7d24b86b0da9bb815137944ad.setContent(html_c15e2258c8f61475d31f3e8d667ddbc7);
+            
+        
+
+        marker_f25e57d913730e03a42eea46806cdd6e.bindPopup(popup_44ffc5d7d24b86b0da9bb815137944ad)
+        ;
+
+        
+    
+    
+            marker_f25e57d913730e03a42eea46806cdd6e.bindTooltip(
+                `<div>
+                     Cape Canaveral city (approximate label location): 19.73 km straight-line distance
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f25e57d913730e03a42eea46806cdd6e.setIcon(icon_2c84bb042c953d2b2177272f88bc659c);
+            
+    
+            var poly_line_0c3d7e49a47ca5aab03e4d1dd9b319b9 = L.polyline(
+                [[28.56319718, -80.57682003], [28.5633, -80.56824]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_02f2e5286865f364fc87e78cdd212c7e);
+        
+    
+            poly_line_0c3d7e49a47ca5aab03e4d1dd9b319b9.bindTooltip(
+                `<div>
+                     Atlantic coastline (selected point): 0.84 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_cc4edb59ce36a2c2a728f4826108229c = L.polyline(
+                [[28.56319718, -80.57682003], [28.5633, -80.57077]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_02f2e5286865f364fc87e78cdd212c7e);
+        
+    
+            poly_line_cc4edb59ce36a2c2a728f4826108229c.bindTooltip(
+                `<div>
+                     Samuel C. Phillips Parkway (selected road point): 0.59 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_091658c9205c3bf913f62612f6c629b2 = L.polyline(
+                [[28.56319718, -80.57682003], [28.5633, -80.58699]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_02f2e5286865f364fc87e78cdd212c7e);
+        
+    
+            poly_line_091658c9205c3bf913f62612f6c629b2.bindTooltip(
+                `<div>
+                     Titan Railroad (selected rail point): 0.99 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_990de24eac030862197ab2cb396c7119 = L.polyline(
+                [[28.56319718, -80.57682003], [28.38778, -80.60669]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_02f2e5286865f364fc87e78cdd212c7e);
+        
+    
+            poly_line_990de24eac030862197ab2cb396c7119.bindTooltip(
+                `<div>
+                     Cape Canaveral city (approximate label location): 19.73 km
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            tile_layer_f72b3397c71c5b7f910c2c904e83adbb.addTo(map_02f2e5286865f364fc87e78cdd212c7e);
+        
+    
+                marker_df55ab8306e21898208e5b79392dc262.setIcon(icon_783d32d673f5c6ab5f2fa1298feea19c);
+            
+    
+                marker_aabf760980e4fc3a0a20d3ba27eb9588.setIcon(icon_507eedb3a47b88bf2baa7ebfcdd62a53);
+            
+    
+                marker_0cad1d7818738e43235997b7ab9950a2.setIcon(icon_a2023a77cbcbd4c688e1df8cb573f7dd);
+            
+    
+                marker_2bd7315befcdaff7cb2f1292458e9c89.setIcon(icon_76e0b6923fc72a44708a5ce2fb14bf16);
+            
+    
+                marker_f25e57d913730e03a42eea46806cdd6e.setIcon(icon_2c84bb042c953d2b2177272f88bc659c);
+            
+    
+            tile_layer_f72b3397c71c5b7f910c2c904e83adbb.addTo(map_02f2e5286865f364fc87e78cdd212c7e);
+        
+    
+                marker_df55ab8306e21898208e5b79392dc262.setIcon(icon_783d32d673f5c6ab5f2fa1298feea19c);
+            
+    
+                marker_aabf760980e4fc3a0a20d3ba27eb9588.setIcon(icon_507eedb3a47b88bf2baa7ebfcdd62a53);
+            
+    
+                marker_0cad1d7818738e43235997b7ab9950a2.setIcon(icon_a2023a77cbcbd4c688e1df8cb573f7dd);
+            
+    
+                marker_2bd7315befcdaff7cb2f1292458e9c89.setIcon(icon_76e0b6923fc72a44708a5ce2fb14bf16);
+            
+    
+                marker_f25e57d913730e03a42eea46806cdd6e.setIcon(icon_2c84bb042c953d2b2177272f88bc659c);
+            
+    
+            var mouse_position_9f800e1255aafed3d6b491d768fd8796 = new L.Control.MousePosition(
+                {
+  "position": "bottomright",
+  "separator": " : ",
+  "emptyString": "Unavailable",
+  "lngFirst": false,
+  "numDigits": 5,
+  "prefix": "",
+}
+            );
+            mouse_position_9f800e1255aafed3d6b491d768fd8796.options["latFormatter"] =
+                undefined;
+            mouse_position_9f800e1255aafed3d6b491d768fd8796.options["lngFormatter"] =
+                undefined;
+            map_02f2e5286865f364fc87e78cdd212c7e.addControl(mouse_position_9f800e1255aafed3d6b491d768fd8796);
+        
+    
+                var lat_lng_popup_d03c5f877ad9d666ec98289f5ff277a8 = L.popup();
+                function latLngPop(e) {
+                    lat_lng_popup_d03c5f877ad9d666ec98289f5ff277a8
+                        .setLatLng(e.latlng)
+                        .setContent("Latitude: " + e.latlng.lat.toFixed(4) +
+                                    "<br>Longitude: " + e.latlng.lng.toFixed(4))
+                        .openOn(map_02f2e5286865f364fc87e78cdd212c7e);
+                    }
+                map_02f2e5286865f364fc87e78cdd212c7e.on('click', latLngPop);
+            
+</script>
+</html>

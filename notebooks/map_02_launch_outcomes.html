@@ -1,0 +1,2241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3f8ae37991e2270a6d710f86c295e241 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3f8ae37991e2270a6d710f86c295e241" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3f8ae37991e2270a6d710f86c295e241 = L.map(
+                "map_3f8ae37991e2270a6d710f86c295e241",
+                {
+                    center: [30.0, -95.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_39e106e0b705d72c8fbe285982acb7bd = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_39e106e0b705d72c8fbe285982acb7bd.addTo(map_3f8ae37991e2270a6d710f86c295e241);
+        
+    
+            var marker_cluster_dac928ad85dbd8703992ec1ab2424f40 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_fd2f064340bb2ff7b63b445c28421adf = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_6e338744705d1522f16bdc1ebd9d4cf2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ddb7c28e09b6615d67278c92403bcf54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c346c94b4acde7df0b19c6b1d13260fb = $(`<div id="html_c346c94b4acde7df0b19c6b1d13260fb" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 0</div>`)[0];
+                popup_ddb7c28e09b6615d67278c92403bcf54.setContent(html_c346c94b4acde7df0b19c6b1d13260fb);
+            
+        
+
+        marker_fd2f064340bb2ff7b63b445c28421adf.bindPopup(popup_ddb7c28e09b6615d67278c92403bcf54)
+        ;
+
+        
+    
+    
+                marker_fd2f064340bb2ff7b63b445c28421adf.setIcon(icon_6e338744705d1522f16bdc1ebd9d4cf2);
+            
+    
+            var marker_07ef87f9e027181b416c5097c477ed93 = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_8aa65432bdfe92987001eefa0c995585 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e007f7d1b8d1401fc1e8ea70c4c24058 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42da5d1cb7c301303a188fd98dd22461 = $(`<div id="html_42da5d1cb7c301303a188fd98dd22461" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 0</div>`)[0];
+                popup_e007f7d1b8d1401fc1e8ea70c4c24058.setContent(html_42da5d1cb7c301303a188fd98dd22461);
+            
+        
+
+        marker_07ef87f9e027181b416c5097c477ed93.bindPopup(popup_e007f7d1b8d1401fc1e8ea70c4c24058)
+        ;
+
+        
+    
+    
+                marker_07ef87f9e027181b416c5097c477ed93.setIcon(icon_8aa65432bdfe92987001eefa0c995585);
+            
+    
+            var marker_2d3701500d47636422a61318ab932773 = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_4e05b53a8135ed6b57f6bf2ac5ea8b65 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e1de8c434b0a6928852501f360e8ca04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2073802a1de7297df7ffe4212673031 = $(`<div id="html_c2073802a1de7297df7ffe4212673031" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 0</div>`)[0];
+                popup_e1de8c434b0a6928852501f360e8ca04.setContent(html_c2073802a1de7297df7ffe4212673031);
+            
+        
+
+        marker_2d3701500d47636422a61318ab932773.bindPopup(popup_e1de8c434b0a6928852501f360e8ca04)
+        ;
+
+        
+    
+    
+                marker_2d3701500d47636422a61318ab932773.setIcon(icon_4e05b53a8135ed6b57f6bf2ac5ea8b65);
+            
+    
+            var marker_45ba4d7502c9dc113f556e83cb1d281c = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_89a39757469193223e9306dfdd6e125a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_20332a6cc0f6a2672f1d643c4c0f4ee5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42c577e71754f1e4bfc9ebbd674e3145 = $(`<div id="html_42c577e71754f1e4bfc9ebbd674e3145" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 0</div>`)[0];
+                popup_20332a6cc0f6a2672f1d643c4c0f4ee5.setContent(html_42c577e71754f1e4bfc9ebbd674e3145);
+            
+        
+
+        marker_45ba4d7502c9dc113f556e83cb1d281c.bindPopup(popup_20332a6cc0f6a2672f1d643c4c0f4ee5)
+        ;
+
+        
+    
+    
+                marker_45ba4d7502c9dc113f556e83cb1d281c.setIcon(icon_89a39757469193223e9306dfdd6e125a);
+            
+    
+            var marker_eacac0a63eab12adab43b01bbd28d09b = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_f5608e3dcc2a282e0f5343da6ca536f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bfea4d7a8dafa804e3fed0a7517c62de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f73480a6b6484f1be72db7f83839c28d = $(`<div id="html_f73480a6b6484f1be72db7f83839c28d" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 0</div>`)[0];
+                popup_bfea4d7a8dafa804e3fed0a7517c62de.setContent(html_f73480a6b6484f1be72db7f83839c28d);
+            
+        
+
+        marker_eacac0a63eab12adab43b01bbd28d09b.bindPopup(popup_bfea4d7a8dafa804e3fed0a7517c62de)
+        ;
+
+        
+    
+    
+                marker_eacac0a63eab12adab43b01bbd28d09b.setIcon(icon_f5608e3dcc2a282e0f5343da6ca536f1);
+            
+    
+            var marker_7658fbc608704eb04fb4cdb0a31221d3 = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_3985d24deb68284b82de38ccce1a5cf8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_70304a5cd3ce1a72fc1dbbcb26e315c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67a1d124f16ba98c3a56eb1116556830 = $(`<div id="html_67a1d124f16ba98c3a56eb1116556830" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 0</div>`)[0];
+                popup_70304a5cd3ce1a72fc1dbbcb26e315c9.setContent(html_67a1d124f16ba98c3a56eb1116556830);
+            
+        
+
+        marker_7658fbc608704eb04fb4cdb0a31221d3.bindPopup(popup_70304a5cd3ce1a72fc1dbbcb26e315c9)
+        ;
+
+        
+    
+    
+                marker_7658fbc608704eb04fb4cdb0a31221d3.setIcon(icon_3985d24deb68284b82de38ccce1a5cf8);
+            
+    
+            var marker_ffc0a49f5b0ae3126dfdf951642c6d93 = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_2dbef7276612c3b50618f6befaaee714 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4fdaab352f4a7f2b7984ebd8a1b75c2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf8bdc87ff670b6ad3bc93006b931aad = $(`<div id="html_cf8bdc87ff670b6ad3bc93006b931aad" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 0</div>`)[0];
+                popup_4fdaab352f4a7f2b7984ebd8a1b75c2b.setContent(html_cf8bdc87ff670b6ad3bc93006b931aad);
+            
+        
+
+        marker_ffc0a49f5b0ae3126dfdf951642c6d93.bindPopup(popup_4fdaab352f4a7f2b7984ebd8a1b75c2b)
+        ;
+
+        
+    
+    
+                marker_ffc0a49f5b0ae3126dfdf951642c6d93.setIcon(icon_2dbef7276612c3b50618f6befaaee714);
+            
+    
+            var marker_cc7949a9636fb3c569ce1f33a95efce5 = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_1092e192a20b6739f41e0a0956aa701b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_851d20d64dcf349ce8c6e10405541679 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29a627c1c554bf3e4376f094c4a44060 = $(`<div id="html_29a627c1c554bf3e4376f094c4a44060" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 0</div>`)[0];
+                popup_851d20d64dcf349ce8c6e10405541679.setContent(html_29a627c1c554bf3e4376f094c4a44060);
+            
+        
+
+        marker_cc7949a9636fb3c569ce1f33a95efce5.bindPopup(popup_851d20d64dcf349ce8c6e10405541679)
+        ;
+
+        
+    
+    
+                marker_cc7949a9636fb3c569ce1f33a95efce5.setIcon(icon_1092e192a20b6739f41e0a0956aa701b);
+            
+    
+            var marker_2b132b15a828b8ec8062b3b6caa4c306 = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_cb4271a4d3a18d64fba42583e22230c4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_238a4a9b03a27dfc92be76c0f4b56903 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d15f55366d08f3b493e6f267fda26ebb = $(`<div id="html_d15f55366d08f3b493e6f267fda26ebb" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 0</div>`)[0];
+                popup_238a4a9b03a27dfc92be76c0f4b56903.setContent(html_d15f55366d08f3b493e6f267fda26ebb);
+            
+        
+
+        marker_2b132b15a828b8ec8062b3b6caa4c306.bindPopup(popup_238a4a9b03a27dfc92be76c0f4b56903)
+        ;
+
+        
+    
+    
+                marker_2b132b15a828b8ec8062b3b6caa4c306.setIcon(icon_cb4271a4d3a18d64fba42583e22230c4);
+            
+    
+            var marker_037dc77b6c401758090c3da1e5540ebe = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_4a6cec51587402520a49d4cb0775a96e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_759a82f77240d594a116306ebb5b2eae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d2e3d1845785d81dfab86b80f967b38 = $(`<div id="html_2d2e3d1845785d81dfab86b80f967b38" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 0</div>`)[0];
+                popup_759a82f77240d594a116306ebb5b2eae.setContent(html_2d2e3d1845785d81dfab86b80f967b38);
+            
+        
+
+        marker_037dc77b6c401758090c3da1e5540ebe.bindPopup(popup_759a82f77240d594a116306ebb5b2eae)
+        ;
+
+        
+    
+    
+                marker_037dc77b6c401758090c3da1e5540ebe.setIcon(icon_4a6cec51587402520a49d4cb0775a96e);
+            
+    
+            var marker_ed9441074e7a85ad2b3f1e64dcb900cb = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_f8adb54bec6f128434d7b9ccab8764b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9a03e62783d4ddc47196b1bed2558d8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_372b6d161987fe8ac12263ffbb38146b = $(`<div id="html_372b6d161987fe8ac12263ffbb38146b" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 0</div>`)[0];
+                popup_9a03e62783d4ddc47196b1bed2558d8d.setContent(html_372b6d161987fe8ac12263ffbb38146b);
+            
+        
+
+        marker_ed9441074e7a85ad2b3f1e64dcb900cb.bindPopup(popup_9a03e62783d4ddc47196b1bed2558d8d)
+        ;
+
+        
+    
+    
+                marker_ed9441074e7a85ad2b3f1e64dcb900cb.setIcon(icon_f8adb54bec6f128434d7b9ccab8764b4);
+            
+    
+            var marker_53c4ff5e095daa9d2d2cfca9e07444ae = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_9144778a3dd4952a036b803acc745f92 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5e4d0cd8da7d7ff92346bc2e44432fdd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab9bef034f6b21222ee599c9da6b6171 = $(`<div id="html_ab9bef034f6b21222ee599c9da6b6171" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 0</div>`)[0];
+                popup_5e4d0cd8da7d7ff92346bc2e44432fdd.setContent(html_ab9bef034f6b21222ee599c9da6b6171);
+            
+        
+
+        marker_53c4ff5e095daa9d2d2cfca9e07444ae.bindPopup(popup_5e4d0cd8da7d7ff92346bc2e44432fdd)
+        ;
+
+        
+    
+    
+                marker_53c4ff5e095daa9d2d2cfca9e07444ae.setIcon(icon_9144778a3dd4952a036b803acc745f92);
+            
+    
+            var marker_03ae81f87d48d8d849f1867d65ff2f89 = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_a9d2ab6a7252f542ce9bf75e12903a71 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ef0820c329604d7fff5f69cd9e1dfc25 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_621ea7383352d294f6b8a4ccdc2a8be6 = $(`<div id="html_621ea7383352d294f6b8a4ccdc2a8be6" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 0</div>`)[0];
+                popup_ef0820c329604d7fff5f69cd9e1dfc25.setContent(html_621ea7383352d294f6b8a4ccdc2a8be6);
+            
+        
+
+        marker_03ae81f87d48d8d849f1867d65ff2f89.bindPopup(popup_ef0820c329604d7fff5f69cd9e1dfc25)
+        ;
+
+        
+    
+    
+                marker_03ae81f87d48d8d849f1867d65ff2f89.setIcon(icon_a9d2ab6a7252f542ce9bf75e12903a71);
+            
+    
+            var marker_241591b8199b6d23160144e93ee47d95 = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_be0046268e13d3dcc7113b7319863a43 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e918b92f86ee0fecef48b5fae50d15f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e25bf276e0953ceda2faf86da765e2c = $(`<div id="html_2e25bf276e0953ceda2faf86da765e2c" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 0</div>`)[0];
+                popup_4e918b92f86ee0fecef48b5fae50d15f.setContent(html_2e25bf276e0953ceda2faf86da765e2c);
+            
+        
+
+        marker_241591b8199b6d23160144e93ee47d95.bindPopup(popup_4e918b92f86ee0fecef48b5fae50d15f)
+        ;
+
+        
+    
+    
+                marker_241591b8199b6d23160144e93ee47d95.setIcon(icon_be0046268e13d3dcc7113b7319863a43);
+            
+    
+            var marker_99bf100b0c5fd9af4611018d4f6a69a2 = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_799b19a859176a0dba282e6066fa6057 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a985951cb3153f8d8b079a0f6f751b1c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40a5d89c72ac4fbf337c969c0c43b115 = $(`<div id="html_40a5d89c72ac4fbf337c969c0c43b115" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 0</div>`)[0];
+                popup_a985951cb3153f8d8b079a0f6f751b1c.setContent(html_40a5d89c72ac4fbf337c969c0c43b115);
+            
+        
+
+        marker_99bf100b0c5fd9af4611018d4f6a69a2.bindPopup(popup_a985951cb3153f8d8b079a0f6f751b1c)
+        ;
+
+        
+    
+    
+                marker_99bf100b0c5fd9af4611018d4f6a69a2.setIcon(icon_799b19a859176a0dba282e6066fa6057);
+            
+    
+            var marker_b8020d110377df9addda6d72429635bb = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_1822a37f5f99473f258f8b43efd8dabf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fc58397b85b40c541987af3342c37d84 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3772719285bbdd9e7c9eecd8ffc4f979 = $(`<div id="html_3772719285bbdd9e7c9eecd8ffc4f979" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 0</div>`)[0];
+                popup_fc58397b85b40c541987af3342c37d84.setContent(html_3772719285bbdd9e7c9eecd8ffc4f979);
+            
+        
+
+        marker_b8020d110377df9addda6d72429635bb.bindPopup(popup_fc58397b85b40c541987af3342c37d84)
+        ;
+
+        
+    
+    
+                marker_b8020d110377df9addda6d72429635bb.setIcon(icon_1822a37f5f99473f258f8b43efd8dabf);
+            
+    
+            var marker_eec63986d722a92b39c6a4fd6833d126 = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_653848c581b5f02063001551ce2aee31 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_581efbfeb6caf04482e5998566d86207 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfc97d5d1f553439be17831f5da6be34 = $(`<div id="html_bfc97d5d1f553439be17831f5da6be34" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 0</div>`)[0];
+                popup_581efbfeb6caf04482e5998566d86207.setContent(html_bfc97d5d1f553439be17831f5da6be34);
+            
+        
+
+        marker_eec63986d722a92b39c6a4fd6833d126.bindPopup(popup_581efbfeb6caf04482e5998566d86207)
+        ;
+
+        
+    
+    
+                marker_eec63986d722a92b39c6a4fd6833d126.setIcon(icon_653848c581b5f02063001551ce2aee31);
+            
+    
+            var marker_bf2d5c8b5d8bd462f76a209c732c7d44 = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_67ea41f6a176ace890993661c160950d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b84c4c2894fcfa47bb36e5f13eb4b261 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_398e2921b82d27978038751c4e47b856 = $(`<div id="html_398e2921b82d27978038751c4e47b856" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 1</div>`)[0];
+                popup_b84c4c2894fcfa47bb36e5f13eb4b261.setContent(html_398e2921b82d27978038751c4e47b856);
+            
+        
+
+        marker_bf2d5c8b5d8bd462f76a209c732c7d44.bindPopup(popup_b84c4c2894fcfa47bb36e5f13eb4b261)
+        ;
+
+        
+    
+    
+                marker_bf2d5c8b5d8bd462f76a209c732c7d44.setIcon(icon_67ea41f6a176ace890993661c160950d);
+            
+    
+            var marker_54b50ea5c0c9833bb8d63d4cf9f277ad = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_c274ce07f783a84a77fd05126e6634bf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5bd1dd17ce97a71263588a3969a3d488 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_521ff4c4ac54063af2266ffca4c32a4d = $(`<div id="html_521ff4c4ac54063af2266ffca4c32a4d" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 1</div>`)[0];
+                popup_5bd1dd17ce97a71263588a3969a3d488.setContent(html_521ff4c4ac54063af2266ffca4c32a4d);
+            
+        
+
+        marker_54b50ea5c0c9833bb8d63d4cf9f277ad.bindPopup(popup_5bd1dd17ce97a71263588a3969a3d488)
+        ;
+
+        
+    
+    
+                marker_54b50ea5c0c9833bb8d63d4cf9f277ad.setIcon(icon_c274ce07f783a84a77fd05126e6634bf);
+            
+    
+            var marker_1207cf4d38f5ced2998af253f5f7e6c4 = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_6e7e21fd51e4083db4762447e7f952bf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d98eea2061f0eae19d1c1e5a0117ebd1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85aa0602ccded92cbacd6f37ac99a0b5 = $(`<div id="html_85aa0602ccded92cbacd6f37ac99a0b5" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 0</div>`)[0];
+                popup_d98eea2061f0eae19d1c1e5a0117ebd1.setContent(html_85aa0602ccded92cbacd6f37ac99a0b5);
+            
+        
+
+        marker_1207cf4d38f5ced2998af253f5f7e6c4.bindPopup(popup_d98eea2061f0eae19d1c1e5a0117ebd1)
+        ;
+
+        
+    
+    
+                marker_1207cf4d38f5ced2998af253f5f7e6c4.setIcon(icon_6e7e21fd51e4083db4762447e7f952bf);
+            
+    
+            var marker_ab0c4ad841e32022a6d74739fdc8a9fd = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_2a549f1233998e5de9d5c53d64d1fd42 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_75ecf0f7bf8d0f82b327ff814d2dd7e5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f03c397f0f42a0b1035ec4fa2f8f72b = $(`<div id="html_5f03c397f0f42a0b1035ec4fa2f8f72b" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 1</div>`)[0];
+                popup_75ecf0f7bf8d0f82b327ff814d2dd7e5.setContent(html_5f03c397f0f42a0b1035ec4fa2f8f72b);
+            
+        
+
+        marker_ab0c4ad841e32022a6d74739fdc8a9fd.bindPopup(popup_75ecf0f7bf8d0f82b327ff814d2dd7e5)
+        ;
+
+        
+    
+    
+                marker_ab0c4ad841e32022a6d74739fdc8a9fd.setIcon(icon_2a549f1233998e5de9d5c53d64d1fd42);
+            
+    
+            var marker_464d416089aa876654198a43ce54e892 = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_2cb952b90c501594eb041d3ce02caef7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_963174a1998f13005c650156da4e23c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e61141f248e803a2b286e7f6bf2b2d87 = $(`<div id="html_e61141f248e803a2b286e7f6bf2b2d87" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 1</div>`)[0];
+                popup_963174a1998f13005c650156da4e23c0.setContent(html_e61141f248e803a2b286e7f6bf2b2d87);
+            
+        
+
+        marker_464d416089aa876654198a43ce54e892.bindPopup(popup_963174a1998f13005c650156da4e23c0)
+        ;
+
+        
+    
+    
+                marker_464d416089aa876654198a43ce54e892.setIcon(icon_2cb952b90c501594eb041d3ce02caef7);
+            
+    
+            var marker_adc9a02f78861989767c7a630a71a870 = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_9e6a6ae852938d0727a8c3976b37d950 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a7c230f5dc5cbc4b4ea7948a7e951f2d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8851557dd2821f25d8e1215abf6cb185 = $(`<div id="html_8851557dd2821f25d8e1215abf6cb185" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 1</div>`)[0];
+                popup_a7c230f5dc5cbc4b4ea7948a7e951f2d.setContent(html_8851557dd2821f25d8e1215abf6cb185);
+            
+        
+
+        marker_adc9a02f78861989767c7a630a71a870.bindPopup(popup_a7c230f5dc5cbc4b4ea7948a7e951f2d)
+        ;
+
+        
+    
+    
+                marker_adc9a02f78861989767c7a630a71a870.setIcon(icon_9e6a6ae852938d0727a8c3976b37d950);
+            
+    
+            var marker_6330de732c4146a12f2bf74216283948 = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_28a8c8aa63e75d72b3a2055ed91d7b3e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f94f934c8d212b0c950991bb3581226d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d952133dff2c8db4e220379f0f021b56 = $(`<div id="html_d952133dff2c8db4e220379f0f021b56" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 0</div>`)[0];
+                popup_f94f934c8d212b0c950991bb3581226d.setContent(html_d952133dff2c8db4e220379f0f021b56);
+            
+        
+
+        marker_6330de732c4146a12f2bf74216283948.bindPopup(popup_f94f934c8d212b0c950991bb3581226d)
+        ;
+
+        
+    
+    
+                marker_6330de732c4146a12f2bf74216283948.setIcon(icon_28a8c8aa63e75d72b3a2055ed91d7b3e);
+            
+    
+            var marker_acc942d0ab4891c7e35976dd3987e64b = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_7b1349e8da78f3adb38cf4bf90597c06 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b2418b7c2d19e48f994062ef655480dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7d6254a54ae2a0d48920866d6b49056 = $(`<div id="html_b7d6254a54ae2a0d48920866d6b49056" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 1</div>`)[0];
+                popup_b2418b7c2d19e48f994062ef655480dc.setContent(html_b7d6254a54ae2a0d48920866d6b49056);
+            
+        
+
+        marker_acc942d0ab4891c7e35976dd3987e64b.bindPopup(popup_b2418b7c2d19e48f994062ef655480dc)
+        ;
+
+        
+    
+    
+                marker_acc942d0ab4891c7e35976dd3987e64b.setIcon(icon_7b1349e8da78f3adb38cf4bf90597c06);
+            
+    
+            var marker_1302518120a8803b83f1e671a37edfcd = L.marker(
+                [28.56230197, -80.57735648],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_11044495d619906f285b035857c12fef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7d89e5e4c85a421a4c97f50cc836fe96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f846430506adec6f0ba0258b0a23d38e = $(`<div id="html_f846430506adec6f0ba0258b0a23d38e" style="width: 100.0%; height: 100.0%;">CCAFS LC-40: course class 1</div>`)[0];
+                popup_7d89e5e4c85a421a4c97f50cc836fe96.setContent(html_f846430506adec6f0ba0258b0a23d38e);
+            
+        
+
+        marker_1302518120a8803b83f1e671a37edfcd.bindPopup(popup_7d89e5e4c85a421a4c97f50cc836fe96)
+        ;
+
+        
+    
+    
+                marker_1302518120a8803b83f1e671a37edfcd.setIcon(icon_11044495d619906f285b035857c12fef);
+            
+    
+            var marker_a1fc9210429e1f5d4435442b94e90521 = L.marker(
+                [34.63283416, -120.6107455],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_80641fd5703d38e7039be2f9c56c0a50 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b679c47963e15120adc35b49beaa6a75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38ae8843440fb72ce119d2e091530588 = $(`<div id="html_38ae8843440fb72ce119d2e091530588" style="width: 100.0%; height: 100.0%;">VAFB SLC-4E: course class 0</div>`)[0];
+                popup_b679c47963e15120adc35b49beaa6a75.setContent(html_38ae8843440fb72ce119d2e091530588);
+            
+        
+
+        marker_a1fc9210429e1f5d4435442b94e90521.bindPopup(popup_b679c47963e15120adc35b49beaa6a75)
+        ;
+
+        
+    
+    
+                marker_a1fc9210429e1f5d4435442b94e90521.setIcon(icon_80641fd5703d38e7039be2f9c56c0a50);
+            
+    
+            var marker_47730334273f4d972a533d21104e3f10 = L.marker(
+                [34.63283416, -120.6107455],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_7d1c8bc08b5ac2476b8e85eb5a6d1bc9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3293c476fbf736f99851a014a3c528df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_645a349593d131d65076f091db6a57f2 = $(`<div id="html_645a349593d131d65076f091db6a57f2" style="width: 100.0%; height: 100.0%;">VAFB SLC-4E: course class 0</div>`)[0];
+                popup_3293c476fbf736f99851a014a3c528df.setContent(html_645a349593d131d65076f091db6a57f2);
+            
+        
+
+        marker_47730334273f4d972a533d21104e3f10.bindPopup(popup_3293c476fbf736f99851a014a3c528df)
+        ;
+
+        
+    
+    
+                marker_47730334273f4d972a533d21104e3f10.setIcon(icon_7d1c8bc08b5ac2476b8e85eb5a6d1bc9);
+            
+    
+            var marker_3d7deef03e0d33696380d89c3f259a5b = L.marker(
+                [34.63283416, -120.6107455],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_eb3349ef4c1b663bda834f14ae8afeac = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ba523ab15743865791559e2120931ec6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0cd47c076a726c869f7870004815205 = $(`<div id="html_c0cd47c076a726c869f7870004815205" style="width: 100.0%; height: 100.0%;">VAFB SLC-4E: course class 1</div>`)[0];
+                popup_ba523ab15743865791559e2120931ec6.setContent(html_c0cd47c076a726c869f7870004815205);
+            
+        
+
+        marker_3d7deef03e0d33696380d89c3f259a5b.bindPopup(popup_ba523ab15743865791559e2120931ec6)
+        ;
+
+        
+    
+    
+                marker_3d7deef03e0d33696380d89c3f259a5b.setIcon(icon_eb3349ef4c1b663bda834f14ae8afeac);
+            
+    
+            var marker_1f5d8fe30106fcc1d555cfb0489123fd = L.marker(
+                [34.63283416, -120.6107455],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_77dbadc8f818d2b9bb06e6b23fd85496 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d1e40d908791c70c6ee93e80c4a9fef1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c968c6cd1d4ee2ad3745762ed0a70ea = $(`<div id="html_8c968c6cd1d4ee2ad3745762ed0a70ea" style="width: 100.0%; height: 100.0%;">VAFB SLC-4E: course class 1</div>`)[0];
+                popup_d1e40d908791c70c6ee93e80c4a9fef1.setContent(html_8c968c6cd1d4ee2ad3745762ed0a70ea);
+            
+        
+
+        marker_1f5d8fe30106fcc1d555cfb0489123fd.bindPopup(popup_d1e40d908791c70c6ee93e80c4a9fef1)
+        ;
+
+        
+    
+    
+                marker_1f5d8fe30106fcc1d555cfb0489123fd.setIcon(icon_77dbadc8f818d2b9bb06e6b23fd85496);
+            
+    
+            var marker_75e9b258bab05ca11884b7d037d3a595 = L.marker(
+                [34.63283416, -120.6107455],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_82f84592335c83a490b0d715177370a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_026a14433c3438416bcea325dc12ce5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07558e21fd600c519b24cfbbf9d48324 = $(`<div id="html_07558e21fd600c519b24cfbbf9d48324" style="width: 100.0%; height: 100.0%;">VAFB SLC-4E: course class 1</div>`)[0];
+                popup_026a14433c3438416bcea325dc12ce5f.setContent(html_07558e21fd600c519b24cfbbf9d48324);
+            
+        
+
+        marker_75e9b258bab05ca11884b7d037d3a595.bindPopup(popup_026a14433c3438416bcea325dc12ce5f)
+        ;
+
+        
+    
+    
+                marker_75e9b258bab05ca11884b7d037d3a595.setIcon(icon_82f84592335c83a490b0d715177370a5);
+            
+    
+            var marker_ee7d587fe652be9d17b3be7b3ce510a8 = L.marker(
+                [34.63283416, -120.6107455],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_413e6766ff55136ac26ba06b7bd15750 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8a10464fa789e117591d6100726d7a18 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_803d63d9a54669eea0f5559d183f1342 = $(`<div id="html_803d63d9a54669eea0f5559d183f1342" style="width: 100.0%; height: 100.0%;">VAFB SLC-4E: course class 1</div>`)[0];
+                popup_8a10464fa789e117591d6100726d7a18.setContent(html_803d63d9a54669eea0f5559d183f1342);
+            
+        
+
+        marker_ee7d587fe652be9d17b3be7b3ce510a8.bindPopup(popup_8a10464fa789e117591d6100726d7a18)
+        ;
+
+        
+    
+    
+                marker_ee7d587fe652be9d17b3be7b3ce510a8.setIcon(icon_413e6766ff55136ac26ba06b7bd15750);
+            
+    
+            var marker_1068ce8a7ec4239d09a00a09f36ca0ab = L.marker(
+                [34.63283416, -120.6107455],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_1379713ec7cd489ea35bf3583244c378 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8f270a5dfade3cb97589015a0c64c38c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3603e11262f8b418852a822fde22a2e5 = $(`<div id="html_3603e11262f8b418852a822fde22a2e5" style="width: 100.0%; height: 100.0%;">VAFB SLC-4E: course class 0</div>`)[0];
+                popup_8f270a5dfade3cb97589015a0c64c38c.setContent(html_3603e11262f8b418852a822fde22a2e5);
+            
+        
+
+        marker_1068ce8a7ec4239d09a00a09f36ca0ab.bindPopup(popup_8f270a5dfade3cb97589015a0c64c38c)
+        ;
+
+        
+    
+    
+                marker_1068ce8a7ec4239d09a00a09f36ca0ab.setIcon(icon_1379713ec7cd489ea35bf3583244c378);
+            
+    
+            var marker_4e27c4fbc93edfa3061c6f94c11d87ac = L.marker(
+                [34.63283416, -120.6107455],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_4dbf3df6f0dfed83547df45dff33c07b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_92d182f948b3d1b70b392cb07333415f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c3a83171a3e8a7dc5b60b0e677eeea5 = $(`<div id="html_4c3a83171a3e8a7dc5b60b0e677eeea5" style="width: 100.0%; height: 100.0%;">VAFB SLC-4E: course class 0</div>`)[0];
+                popup_92d182f948b3d1b70b392cb07333415f.setContent(html_4c3a83171a3e8a7dc5b60b0e677eeea5);
+            
+        
+
+        marker_4e27c4fbc93edfa3061c6f94c11d87ac.bindPopup(popup_92d182f948b3d1b70b392cb07333415f)
+        ;
+
+        
+    
+    
+                marker_4e27c4fbc93edfa3061c6f94c11d87ac.setIcon(icon_4dbf3df6f0dfed83547df45dff33c07b);
+            
+    
+            var marker_b340078ecc3e3055a9c976947d270292 = L.marker(
+                [34.63283416, -120.6107455],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_48ff981d5d0601cbd02520292aac4708 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c99b618e16d7b2a7137f4aeb36550cdb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c50f30fef212d51363b940245b7d32c = $(`<div id="html_1c50f30fef212d51363b940245b7d32c" style="width: 100.0%; height: 100.0%;">VAFB SLC-4E: course class 0</div>`)[0];
+                popup_c99b618e16d7b2a7137f4aeb36550cdb.setContent(html_1c50f30fef212d51363b940245b7d32c);
+            
+        
+
+        marker_b340078ecc3e3055a9c976947d270292.bindPopup(popup_c99b618e16d7b2a7137f4aeb36550cdb)
+        ;
+
+        
+    
+    
+                marker_b340078ecc3e3055a9c976947d270292.setIcon(icon_48ff981d5d0601cbd02520292aac4708);
+            
+    
+            var marker_22b8b98e00786f864121de162bf916cd = L.marker(
+                [34.63283416, -120.6107455],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_c9b68860d1a625ed0dae34cf1a15f041 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6b191a2173167b3d413a0e496ef5e259 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_217783edc4abf81de17863591368146f = $(`<div id="html_217783edc4abf81de17863591368146f" style="width: 100.0%; height: 100.0%;">VAFB SLC-4E: course class 0</div>`)[0];
+                popup_6b191a2173167b3d413a0e496ef5e259.setContent(html_217783edc4abf81de17863591368146f);
+            
+        
+
+        marker_22b8b98e00786f864121de162bf916cd.bindPopup(popup_6b191a2173167b3d413a0e496ef5e259)
+        ;
+
+        
+    
+    
+                marker_22b8b98e00786f864121de162bf916cd.setIcon(icon_c9b68860d1a625ed0dae34cf1a15f041);
+            
+    
+            var marker_f6832a397986f5ee0ce07f28e14139a5 = L.marker(
+                [28.57325457, -80.64689529],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_de0c2920202758da5b5d39a14e623fb4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_156329e10a45b46dc95702b48011af1e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ad9003516acf2ba95181fbfb0b780ba = $(`<div id="html_1ad9003516acf2ba95181fbfb0b780ba" style="width: 100.0%; height: 100.0%;">KSC LC-39A: course class 1</div>`)[0];
+                popup_156329e10a45b46dc95702b48011af1e.setContent(html_1ad9003516acf2ba95181fbfb0b780ba);
+            
+        
+
+        marker_f6832a397986f5ee0ce07f28e14139a5.bindPopup(popup_156329e10a45b46dc95702b48011af1e)
+        ;
+
+        
+    
+    
+                marker_f6832a397986f5ee0ce07f28e14139a5.setIcon(icon_de0c2920202758da5b5d39a14e623fb4);
+            
+    
+            var marker_cc9b96e895bc970a53a5635a9e5d64df = L.marker(
+                [28.57325457, -80.64689529],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_7f1cf50d70851f1d796a88223402468a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8579f07821be352e233b11fa8ca5cabf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62c4b6a2bb61c93765ec12bcf264fc36 = $(`<div id="html_62c4b6a2bb61c93765ec12bcf264fc36" style="width: 100.0%; height: 100.0%;">KSC LC-39A: course class 0</div>`)[0];
+                popup_8579f07821be352e233b11fa8ca5cabf.setContent(html_62c4b6a2bb61c93765ec12bcf264fc36);
+            
+        
+
+        marker_cc9b96e895bc970a53a5635a9e5d64df.bindPopup(popup_8579f07821be352e233b11fa8ca5cabf)
+        ;
+
+        
+    
+    
+                marker_cc9b96e895bc970a53a5635a9e5d64df.setIcon(icon_7f1cf50d70851f1d796a88223402468a);
+            
+    
+            var marker_b6caba3e6d81f9b392783bd5e2c8d06f = L.marker(
+                [28.57325457, -80.64689529],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_f15b08e7cdd4a7d80b486dcc1e647919 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_501ce988b37cebf62e6fed22a0378096 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01ce77a0b180ecb5a47722f632d0a62a = $(`<div id="html_01ce77a0b180ecb5a47722f632d0a62a" style="width: 100.0%; height: 100.0%;">KSC LC-39A: course class 1</div>`)[0];
+                popup_501ce988b37cebf62e6fed22a0378096.setContent(html_01ce77a0b180ecb5a47722f632d0a62a);
+            
+        
+
+        marker_b6caba3e6d81f9b392783bd5e2c8d06f.bindPopup(popup_501ce988b37cebf62e6fed22a0378096)
+        ;
+
+        
+    
+    
+                marker_b6caba3e6d81f9b392783bd5e2c8d06f.setIcon(icon_f15b08e7cdd4a7d80b486dcc1e647919);
+            
+    
+            var marker_0532071d9d6a397735a33217fbede44e = L.marker(
+                [28.57325457, -80.64689529],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_e331d4f7a5cc0d08f1121f9921b5eae2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1c7c000807e60d4301a2f49f85f62f1c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_437b97e8f19955201e841c2cf4a9b4c1 = $(`<div id="html_437b97e8f19955201e841c2cf4a9b4c1" style="width: 100.0%; height: 100.0%;">KSC LC-39A: course class 1</div>`)[0];
+                popup_1c7c000807e60d4301a2f49f85f62f1c.setContent(html_437b97e8f19955201e841c2cf4a9b4c1);
+            
+        
+
+        marker_0532071d9d6a397735a33217fbede44e.bindPopup(popup_1c7c000807e60d4301a2f49f85f62f1c)
+        ;
+
+        
+    
+    
+                marker_0532071d9d6a397735a33217fbede44e.setIcon(icon_e331d4f7a5cc0d08f1121f9921b5eae2);
+            
+    
+            var marker_4cb28d246f798d966aa06c3676191211 = L.marker(
+                [28.57325457, -80.64689529],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_505890fb2a83766c015aa08b711be666 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c4d72691730745ccea829da8b317be4f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a7a6b0abc99e63983ed8905dc5d5327 = $(`<div id="html_5a7a6b0abc99e63983ed8905dc5d5327" style="width: 100.0%; height: 100.0%;">KSC LC-39A: course class 0</div>`)[0];
+                popup_c4d72691730745ccea829da8b317be4f.setContent(html_5a7a6b0abc99e63983ed8905dc5d5327);
+            
+        
+
+        marker_4cb28d246f798d966aa06c3676191211.bindPopup(popup_c4d72691730745ccea829da8b317be4f)
+        ;
+
+        
+    
+    
+                marker_4cb28d246f798d966aa06c3676191211.setIcon(icon_505890fb2a83766c015aa08b711be666);
+            
+    
+            var marker_abf781f95d649fc9c0f00e41d984e0be = L.marker(
+                [28.57325457, -80.64689529],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_12d5e23459f51f63240f0b7917172bf5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0a2f379574429db53bbf10ff03725b3d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ba985a69438e9e041298bf6b48f957c = $(`<div id="html_3ba985a69438e9e041298bf6b48f957c" style="width: 100.0%; height: 100.0%;">KSC LC-39A: course class 1</div>`)[0];
+                popup_0a2f379574429db53bbf10ff03725b3d.setContent(html_3ba985a69438e9e041298bf6b48f957c);
+            
+        
+
+        marker_abf781f95d649fc9c0f00e41d984e0be.bindPopup(popup_0a2f379574429db53bbf10ff03725b3d)
+        ;
+
+        
+    
+    
+                marker_abf781f95d649fc9c0f00e41d984e0be.setIcon(icon_12d5e23459f51f63240f0b7917172bf5);
+            
+    
+            var marker_ade1e4a85a56633b107efa487cdf9610 = L.marker(
+                [28.57325457, -80.64689529],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_73056b4299355dac6db2922c4ab8d370 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aa88a82380a41c243ceabdcafe67bdb9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4893ce5cd7e2290fa4f287e14598741 = $(`<div id="html_e4893ce5cd7e2290fa4f287e14598741" style="width: 100.0%; height: 100.0%;">KSC LC-39A: course class 1</div>`)[0];
+                popup_aa88a82380a41c243ceabdcafe67bdb9.setContent(html_e4893ce5cd7e2290fa4f287e14598741);
+            
+        
+
+        marker_ade1e4a85a56633b107efa487cdf9610.bindPopup(popup_aa88a82380a41c243ceabdcafe67bdb9)
+        ;
+
+        
+    
+    
+                marker_ade1e4a85a56633b107efa487cdf9610.setIcon(icon_73056b4299355dac6db2922c4ab8d370);
+            
+    
+            var marker_7c8dcdee0524e4f0cf1f84352709eafb = L.marker(
+                [28.57325457, -80.64689529],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_44b3bffa7fc783b36ff7d3cecb39f2d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2f9adc3ea95436eeebc07b415fea134a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21db56ebad0608b68ef13a23e2eaf817 = $(`<div id="html_21db56ebad0608b68ef13a23e2eaf817" style="width: 100.0%; height: 100.0%;">KSC LC-39A: course class 0</div>`)[0];
+                popup_2f9adc3ea95436eeebc07b415fea134a.setContent(html_21db56ebad0608b68ef13a23e2eaf817);
+            
+        
+
+        marker_7c8dcdee0524e4f0cf1f84352709eafb.bindPopup(popup_2f9adc3ea95436eeebc07b415fea134a)
+        ;
+
+        
+    
+    
+                marker_7c8dcdee0524e4f0cf1f84352709eafb.setIcon(icon_44b3bffa7fc783b36ff7d3cecb39f2d3);
+            
+    
+            var marker_b02ceeb1a795718c45f96846456b89d9 = L.marker(
+                [28.57325457, -80.64689529],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_1fe09c202e7d16774135173b120c5b2a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fb3bbb0fe4404b4390a7ad33cb072d83 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3a3687831bb02bda2ba79fbb3f4f021 = $(`<div id="html_b3a3687831bb02bda2ba79fbb3f4f021" style="width: 100.0%; height: 100.0%;">KSC LC-39A: course class 1</div>`)[0];
+                popup_fb3bbb0fe4404b4390a7ad33cb072d83.setContent(html_b3a3687831bb02bda2ba79fbb3f4f021);
+            
+        
+
+        marker_b02ceeb1a795718c45f96846456b89d9.bindPopup(popup_fb3bbb0fe4404b4390a7ad33cb072d83)
+        ;
+
+        
+    
+    
+                marker_b02ceeb1a795718c45f96846456b89d9.setIcon(icon_1fe09c202e7d16774135173b120c5b2a);
+            
+    
+            var marker_aab92a6914778efdb272ec06c42d686e = L.marker(
+                [28.57325457, -80.64689529],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_69a4af6d6b39cc1c42eece876eed4e4f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_90295914e75a26db8b0ec814de0b32a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e25bf37404649706b62eadd3dd64e0bc = $(`<div id="html_e25bf37404649706b62eadd3dd64e0bc" style="width: 100.0%; height: 100.0%;">KSC LC-39A: course class 1</div>`)[0];
+                popup_90295914e75a26db8b0ec814de0b32a3.setContent(html_e25bf37404649706b62eadd3dd64e0bc);
+            
+        
+
+        marker_aab92a6914778efdb272ec06c42d686e.bindPopup(popup_90295914e75a26db8b0ec814de0b32a3)
+        ;
+
+        
+    
+    
+                marker_aab92a6914778efdb272ec06c42d686e.setIcon(icon_69a4af6d6b39cc1c42eece876eed4e4f);
+            
+    
+            var marker_ec19ebf640d1ceb753654bd09cb45f57 = L.marker(
+                [28.57325457, -80.64689529],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_bdfa0b9cc0151b537770f30ab357b6d7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4a281eb1879b0e0988246376eef876bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_796541f2e4f5a0ba38f96721e96b6392 = $(`<div id="html_796541f2e4f5a0ba38f96721e96b6392" style="width: 100.0%; height: 100.0%;">KSC LC-39A: course class 1</div>`)[0];
+                popup_4a281eb1879b0e0988246376eef876bb.setContent(html_796541f2e4f5a0ba38f96721e96b6392);
+            
+        
+
+        marker_ec19ebf640d1ceb753654bd09cb45f57.bindPopup(popup_4a281eb1879b0e0988246376eef876bb)
+        ;
+
+        
+    
+    
+                marker_ec19ebf640d1ceb753654bd09cb45f57.setIcon(icon_bdfa0b9cc0151b537770f30ab357b6d7);
+            
+    
+            var marker_6c986a37a27046d14a10cf6da2f6c84b = L.marker(
+                [28.57325457, -80.64689529],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_b09aeaf2591efa5e7c1e7d51facc5498 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_08b514dc5c74946b6ced3f39b2dd2559 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db4be49614066d31dd8988f6e5263952 = $(`<div id="html_db4be49614066d31dd8988f6e5263952" style="width: 100.0%; height: 100.0%;">KSC LC-39A: course class 1</div>`)[0];
+                popup_08b514dc5c74946b6ced3f39b2dd2559.setContent(html_db4be49614066d31dd8988f6e5263952);
+            
+        
+
+        marker_6c986a37a27046d14a10cf6da2f6c84b.bindPopup(popup_08b514dc5c74946b6ced3f39b2dd2559)
+        ;
+
+        
+    
+    
+                marker_6c986a37a27046d14a10cf6da2f6c84b.setIcon(icon_b09aeaf2591efa5e7c1e7d51facc5498);
+            
+    
+            var marker_8a6cfe931f4122a55c29db8e863e71c3 = L.marker(
+                [28.57325457, -80.64689529],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_4b6853db2e446e4e4f9c83a712572d0d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7dd0ab9ac9746624ff478cac8405393f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb622ab72f6d8cb322cbdf92e5c3b5bb = $(`<div id="html_fb622ab72f6d8cb322cbdf92e5c3b5bb" style="width: 100.0%; height: 100.0%;">KSC LC-39A: course class 1</div>`)[0];
+                popup_7dd0ab9ac9746624ff478cac8405393f.setContent(html_fb622ab72f6d8cb322cbdf92e5c3b5bb);
+            
+        
+
+        marker_8a6cfe931f4122a55c29db8e863e71c3.bindPopup(popup_7dd0ab9ac9746624ff478cac8405393f)
+        ;
+
+        
+    
+    
+                marker_8a6cfe931f4122a55c29db8e863e71c3.setIcon(icon_4b6853db2e446e4e4f9c83a712572d0d);
+            
+    
+            var marker_46a10f7e714c5e14090aff95bbc6253a = L.marker(
+                [28.56319718, -80.57682003],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_6b59a833facf4560256e1f7266714061 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8eeaeb5ded3dfc83791ce7fb21058ef5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47cac7ef94edc6ebfb4ceafe51915b88 = $(`<div id="html_47cac7ef94edc6ebfb4ceafe51915b88" style="width: 100.0%; height: 100.0%;">CCAFS SLC-40: course class 1</div>`)[0];
+                popup_8eeaeb5ded3dfc83791ce7fb21058ef5.setContent(html_47cac7ef94edc6ebfb4ceafe51915b88);
+            
+        
+
+        marker_46a10f7e714c5e14090aff95bbc6253a.bindPopup(popup_8eeaeb5ded3dfc83791ce7fb21058ef5)
+        ;
+
+        
+    
+    
+                marker_46a10f7e714c5e14090aff95bbc6253a.setIcon(icon_6b59a833facf4560256e1f7266714061);
+            
+    
+            var marker_cfe6a62abb940b7807bbb4c493597eb5 = L.marker(
+                [28.56319718, -80.57682003],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_0efdb55d34c4b42bc6cb87c4e2b91973 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c64e15e5a9487cf242d41a083bfbfb16 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_213848bf3413d678b430bc91bf9fed6d = $(`<div id="html_213848bf3413d678b430bc91bf9fed6d" style="width: 100.0%; height: 100.0%;">CCAFS SLC-40: course class 1</div>`)[0];
+                popup_c64e15e5a9487cf242d41a083bfbfb16.setContent(html_213848bf3413d678b430bc91bf9fed6d);
+            
+        
+
+        marker_cfe6a62abb940b7807bbb4c493597eb5.bindPopup(popup_c64e15e5a9487cf242d41a083bfbfb16)
+        ;
+
+        
+    
+    
+                marker_cfe6a62abb940b7807bbb4c493597eb5.setIcon(icon_0efdb55d34c4b42bc6cb87c4e2b91973);
+            
+    
+            var marker_ffdd0dc01686f48d471007435f7b6d53 = L.marker(
+                [28.56319718, -80.57682003],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_d42a54731001fe5324b0104cc84fbbe3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_148fbf52a9454d200141928472c64bf0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f704f15952ba9cad97d12b724304df7 = $(`<div id="html_0f704f15952ba9cad97d12b724304df7" style="width: 100.0%; height: 100.0%;">CCAFS SLC-40: course class 0</div>`)[0];
+                popup_148fbf52a9454d200141928472c64bf0.setContent(html_0f704f15952ba9cad97d12b724304df7);
+            
+        
+
+        marker_ffdd0dc01686f48d471007435f7b6d53.bindPopup(popup_148fbf52a9454d200141928472c64bf0)
+        ;
+
+        
+    
+    
+                marker_ffdd0dc01686f48d471007435f7b6d53.setIcon(icon_d42a54731001fe5324b0104cc84fbbe3);
+            
+    
+            var marker_28bd3e5e2687ec63c46539c649563947 = L.marker(
+                [28.56319718, -80.57682003],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_da9d71967ae87685dbfd0a68445971dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9a93a2c7a72980bd575512e002633a84 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_721f3abd6fa8825da5ddcb9e991d9d75 = $(`<div id="html_721f3abd6fa8825da5ddcb9e991d9d75" style="width: 100.0%; height: 100.0%;">CCAFS SLC-40: course class 0</div>`)[0];
+                popup_9a93a2c7a72980bd575512e002633a84.setContent(html_721f3abd6fa8825da5ddcb9e991d9d75);
+            
+        
+
+        marker_28bd3e5e2687ec63c46539c649563947.bindPopup(popup_9a93a2c7a72980bd575512e002633a84)
+        ;
+
+        
+    
+    
+                marker_28bd3e5e2687ec63c46539c649563947.setIcon(icon_da9d71967ae87685dbfd0a68445971dc);
+            
+    
+            var marker_afbb54341a3b9ecde89a15c5728929fe = L.marker(
+                [28.56319718, -80.57682003],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_4c2e24181ed906f54968b245a16c6219 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_44350ea6ccbd8c417ad9a6c30ed745a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_686affc882729572e3709eb9f77eb26f = $(`<div id="html_686affc882729572e3709eb9f77eb26f" style="width: 100.0%; height: 100.0%;">CCAFS SLC-40: course class 0</div>`)[0];
+                popup_44350ea6ccbd8c417ad9a6c30ed745a6.setContent(html_686affc882729572e3709eb9f77eb26f);
+            
+        
+
+        marker_afbb54341a3b9ecde89a15c5728929fe.bindPopup(popup_44350ea6ccbd8c417ad9a6c30ed745a6)
+        ;
+
+        
+    
+    
+                marker_afbb54341a3b9ecde89a15c5728929fe.setIcon(icon_4c2e24181ed906f54968b245a16c6219);
+            
+    
+            var marker_372bec36166beb29398b83657e5c222f = L.marker(
+                [28.56319718, -80.57682003],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_a8ad9d6522fc2c798f41d23e3ca1efa5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_423b723d4b0b5f066d8a77b2a5a0bf45 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f964230d60615b4ae710ec4c307dc65 = $(`<div id="html_0f964230d60615b4ae710ec4c307dc65" style="width: 100.0%; height: 100.0%;">CCAFS SLC-40: course class 1</div>`)[0];
+                popup_423b723d4b0b5f066d8a77b2a5a0bf45.setContent(html_0f964230d60615b4ae710ec4c307dc65);
+            
+        
+
+        marker_372bec36166beb29398b83657e5c222f.bindPopup(popup_423b723d4b0b5f066d8a77b2a5a0bf45)
+        ;
+
+        
+    
+    
+                marker_372bec36166beb29398b83657e5c222f.setIcon(icon_a8ad9d6522fc2c798f41d23e3ca1efa5);
+            
+    
+            var marker_c9e853f67a540b77bf56bffa60624180 = L.marker(
+                [28.56319718, -80.57682003],
+                {
+}
+            ).addTo(marker_cluster_dac928ad85dbd8703992ec1ab2424f40);
+        
+    
+            var icon_930e3737e97636fce29794080b6a342d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_052082e6ecb522a0a2422c6a2ba16a9f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ff32694a4501f53e4a2cacf0c047e34 = $(`<div id="html_9ff32694a4501f53e4a2cacf0c047e34" style="width: 100.0%; height: 100.0%;">CCAFS SLC-40: course class 0</div>`)[0];
+                popup_052082e6ecb522a0a2422c6a2ba16a9f.setContent(html_9ff32694a4501f53e4a2cacf0c047e34);
+            
+        
+
+        marker_c9e853f67a540b77bf56bffa60624180.bindPopup(popup_052082e6ecb522a0a2422c6a2ba16a9f)
+        ;
+
+        
+    
+    
+                marker_c9e853f67a540b77bf56bffa60624180.setIcon(icon_930e3737e97636fce29794080b6a342d);
+            
+    
+            marker_cluster_dac928ad85dbd8703992ec1ab2424f40.addTo(map_3f8ae37991e2270a6d710f86c295e241);
+        
+</script>
+</html>

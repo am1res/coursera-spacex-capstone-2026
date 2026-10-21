@@ -1,0 +1,50 @@
+[
+  {
+    "notebook": "01_api_collection_fallback.ipynb",
+    "code_cells": 4,
+    "executed_cells": 4,
+    "error_outputs": 0
+  },
+  {
+    "notebook": "02_web_scraping_completed.ipynb",
+    "code_cells": 14,
+    "executed_cells": 14,
+    "error_outputs": 0
+  },
+  {
+    "notebook": "03_data_wrangling_completed.ipynb",
+    "code_cells": 15,
+    "executed_cells": 15,
+    "error_outputs": 0
+  },
+  {
+    "notebook": "04_sql_eda_completed.ipynb",
+    "code_cells": 19,
+    "executed_cells": 19,
+    "error_outputs": 0
+  },
+  {
+    "notebook": "05_visual_eda_completed.ipynb",
+    "code_cells": 14,
+    "executed_cells": 14,
+    "error_outputs": 0
+  },
+  {
+    "notebook": "06_folium_analytics_completed.ipynb",
+    "code_cells": 21,
+    "executed_cells": 21,
+    "error_outputs": 0
+  },
+  {
+    "notebook": "07_dash_dashboard_completed.ipynb",
+    "code_cells": 3,
+    "executed_cells": 3,
+    "error_outputs": 0
+  },
+  {
+    "notebook": "08_classification_completed.ipynb",
+    "code_cells": 32,
+    "executed_cells": 32,
+    "error_outputs": 0
+  }
+]

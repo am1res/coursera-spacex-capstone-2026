@@ -1,0 +1,6 @@
+{
+  "missing_sql_dates": [
+    "2016-09-01"
+  ],
+  "handling": "Preserve the API-snapshot row and use Unknown in SQL snapshot for booster category; do not invent a version."
+}

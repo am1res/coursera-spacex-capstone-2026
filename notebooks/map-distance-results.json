@@ -1,0 +1,31 @@
+{
+  "launch_coordinate": [
+    28.56319718,
+    -80.57682003
+  ],
+  "reference_points": {
+    "Atlantic coastline (selected point)": [
+      28.5633,
+      -80.56824
+    ],
+    "Samuel C. Phillips Parkway (selected road point)": [
+      28.5633,
+      -80.57077
+    ],
+    "Titan Railroad (selected rail point)": [
+      28.5633,
+      -80.58699
+    ],
+    "Cape Canaveral city (approximate label location)": [
+      28.38778,
+      -80.60669
+    ]
+  },
+  "distance_km": {
+    "Atlantic coastline (selected point)": 0.8382785911286653,
+    "Samuel C. Phillips Parkway (selected road point)": 0.5911503688862131,
+    "Titan Railroad (selected rail point)": 0.9935908653581236,
+    "Cape Canaveral city (approximate label location)": 19.72898109893341
+  },
+  "method": "Haversine, R=6373 km; approximate visually selected points"
+}
